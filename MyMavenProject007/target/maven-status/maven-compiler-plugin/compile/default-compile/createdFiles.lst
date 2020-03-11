@@ -1,0 +1,5 @@
+com\wurain\Applicateion.class
+com\wurain\controller\StudentController.class
+com\wurain\model\Student.class
+com\wurain\repository\StudentRepository.class
+com\wurain\repository\impl\StudentRepositoryImpl.class
