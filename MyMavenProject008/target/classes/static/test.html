@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Test Page</title>
+    <!-- add the jQWidgets base styles and one of the theme stylesheets -->
+    <link rel="stylesheet" href="./js/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="./js/jqwidgets/styles/jqx.material.css" type="text/css" />
+    <!-- add the jQWidgets framework -->
+    <script type="text/javascript" src="./js/jqwidgets/jqxcore.js"></script>
+    <!-- add one or more widgets -->
+    <script type="text/javascript" src="./js/jqwidgets/jqxgrid.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            const button = new jqxButton("button", { width: '120px', height: '35px', theme: 'material'});
+        };
+    </script>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    PGM:<input type="text" /> <br/> <br/>
+    Field:<textarea rows="20" cols="50"></textarea> <br/>
+    <input type="submit" value="提交" />
+    <hr>
+    <div id="grid">
+    </div>
+    <input type="submit" value="保存" />
+</body>
+</html>

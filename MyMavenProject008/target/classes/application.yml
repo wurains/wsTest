@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ymslxtool
+    driver-class-name: org.postgresql.Driver
+    username: ymslxtool_t1
+    password: ymslxtool
